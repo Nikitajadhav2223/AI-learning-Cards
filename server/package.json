@@ -1,0 +1,14 @@
+{
+  "name": "ai-learning-cards-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "@google/generative-ai": "^0.15.0",
+    "dotenv": "^16.4.5"
+  }
+}
